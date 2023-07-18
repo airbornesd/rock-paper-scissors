@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rock paper scissors</title>
 </head>
-<body>
 
+<body>
+    <section class="game">
+        <!-- Title -->
+        <div class="title">Rock Paper Scissors</div>
+
+        <!-- Display Score -->
+        <div class="score">
+            <div class="playerScore">
+                <h2>Player</h2>
+                <p class="p-count">0</p>
+            </div>
+            <div class="computerScore">
+                <h2>Computer</h2>
+                <p class="c-count">0</p>
+            </div>
+        </div>
+        <div class="move">Choose your move</div>
+        
+        <!-- Number of choice -->
+        <div id="options">
+            <button id="rock">rock</button>
+            <button id="paper">paper</button>
+            <button id="scissors">scissors</button>
+        </div>
+
+        <!-- Result of the game -->
+        <div class="result"></div>
+
+    </section>
     <script src="./script.js"></script>
 </body>
+
 </html>
